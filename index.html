@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>REGISTRATION</h1>
+    <hr>
+    <form action="post">
+        <div>
+            <label for="username">ENTER YOUR USERNAME :</label>
+            <input type="text" name="username" id="username" placeholder="Enter Your Username">
+        </div>
+        <div>
+            <h4></h4>
+            <label>SELECT YOUR GENDER :</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <h4></h4>
+            <label>SELECT HOBBIES :</label>
+            <h1></h1>
+            <input type="checkbox" id="anime" name="hobby" value="yes">
+            <label for="anime">Anime</label>
+        </div>
+        <div>
+            <input type="checkbox" id="movie" name="hobby" value="yes">
+            <label for="movie">Movie</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Books" name="hobby" value="yes">
+            <label for="Books">Books</label>
+        </div>
+        <div>
+            <h4></h4>
+            <label for="exp">Select Experience: </label>
+            <select name="exp" id="exp">
+                <option value="Select">Select</option>
+                <option value="Beginner">Beginner (0 yrs. of experience)</option>
+                <option value="Intermediate">Intermediate (1-2 yrs.)</option>
+                <option value="Veteran">Veteran (>2 yrs)</option>
+            </select>
+        </div>
+        <div>
+            <h4></h4>
+            <label for="comment">Comment</label><br>
+            <h1></h1>
+            <textarea id="comment" name="comment" rows="5" cols="50">Write your comment here....</textarea>
+        </div>
+        <h1></h1>
+        <div>
+            <a class="link" href="./result.html"><img src="./WhatsApp Image 2024-10-02 at 14.58.57_5f9e4d0e.jpg" alt="Register" width="150"></a>
+        </div>
+    </form>
+    
+
+</body>
+</html>
